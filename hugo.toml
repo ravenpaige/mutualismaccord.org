@@ -1,0 +1,12 @@
+baseURL = "https://mutualismaccord.org/"
+languageCode = "en-us"
+title = "Mutualism Accord"
+theme = "PaperMod"
+
+[params]
+  author = "Spark"
+  ShowReadingTime = true
+  defaultTheme = "auto"
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
