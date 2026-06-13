@@ -1,14 +1,15 @@
-baseURL = "https://mutualismaccord.org/"
-languageCode = "en-us"
+baseURL = "https://mutualismaccord.org"
+locale = "en-us"
 title = "Mutualism Accord"
 theme = "PaperMod"
 
 [menu]
   [[menu.main]]
     name = 'Manifesto'
-    pageRef = '/posts/manifesto'
+    url = '/posts/manifesto/'
     weight = 10
+
   [[menu.main]]
     name = 'Technical Spec'
-    pageRef = '/posts/spec'
+    url = '/posts/spec/'
     weight = 20
