@@ -11,9 +11,8 @@ The Mutualism Accord defines a technical standard that separates advanced comput
 This website is built using **Hugo** (a fast static site generator) paired with an **Obsidian** workflow for seamless documentation updates.
 
 *   `content/posts/` — Contains the markdown files for the Executive Brief, Manifesto, and Technical Specs.
-*   `.obsidian/` — Project configuration folder allowing you to write, link, and visualize the documentation graph directly in Obsidian before compiling.
-*   `themes/` — Houses the responsive, minimalist CSS layout optimized for fast page loads and high scannability.
-*   `public/` — The compiled static production build ready for deployment.
+*   `.obsidian/` — Project configuration folder allowing you to write, link, and visualize your documentation graph directly inside Obsidian.
+*   `themes/` — Houses the minimalist `PaperMod` CSS layout optimized for speed and high scannability.
 
 ---
 
@@ -29,7 +28,7 @@ Make sure you have [Hugo Extended](https://gohugo.io) installed on your local ma
    cd mutualismaccord.org
    ```
 
-2. Initialize and update any theme submodules:
+2. Initialize and download the website theme submodules:
    ```bash
    git submodule update --init --recursive
    ```
@@ -38,7 +37,7 @@ Make sure you have [Hugo Extended](https://gohugo.io) installed on your local ma
    ```bash
    hugo server -D
    ```
-4. Open your browser and navigate to `http://localhost:1313` to view the local site.
+4. Open your browser and navigate to `http://localhost:1313` to view the local environment.
 
 ---
 
@@ -56,16 +55,15 @@ This documentation hub covers the foundational implementation blueprints for eng
 
 We welcome contributions from engineers, policy writers, and digital rights advocates.
 
-1. **Review the Specifications**: Read through the current architectural drafts in the `content/posts/` folder.
-2. **Submit an Issue**: Flag bugs, suggest prompt engineering enhancements, or propose new framework modules.
-3. **Open a Pull Request**: 
-   * Fork the repository.
-   * Create your feature branch (`git checkout -b feature/AmazingFeature`).
-   * Commit your changes using descriptive commit messages (`git commit -m 'Add edge-execution test parameters'`).
-   * Push to the branch (`git push origin feature/AmazingFeature`) and open a PR.
+1. **Review the Specifications**: Read through the active architectural files in the `content/posts/` folder.
+2. **Submit an Issue**: Flag compilation errors, suggest prompt engineering enhancements, or propose new framework modules.
+3. **Open a Pull Request**: Fork the repository, create your feature branch (`git checkout -b feature/AmazingFeature`), commit your logic changes cleanly, and submit a PR to the `main` branch.
 
 ---
 
 ## ⚖️ Licensing
 
-This project is licensed under an open-source framework dedicated to public benefit, preventing the commercial monopolization or proprietary enclosure of its core protocols.
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. 
+
+The AGPL-3.0 is a strong copyleft license designed to prevent the proprietary enclosure or commercial monopolization of our core protocols. If any entity uses, modifies, or hosts these system specs or agent instructions to provide network-accessible cloud software services, they are **legally mandated** to make their entire application infrastructure source code fully available to the open-source community under the same license terms.
+
