@@ -3,10 +3,12 @@ languageCode = "en-us"
 title = "Mutualism Accord"
 theme = "PaperMod"
 
-[params]
-  author = "Spark"
-  ShowReadingTime = true
-  defaultTheme = "auto"
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+[menu]
+  [[menu.main]]
+    name = 'Manifesto'
+    pageRef = '/posts/manifesto'
+    weight = 10
+  [[menu.main]]
+    name = 'Technical Spec'
+    pageRef = '/posts/spec'
+    weight = 20
