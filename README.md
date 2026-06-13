@@ -2,7 +2,14 @@
 
 > A universal, open-source protocol and policy framework to dismantle the digital oligarchy through local-first autonomy and absolute agent loyalty.
 
-The Mutualism Accord defines a technical standard that separates advanced computing and autonomous AI agents from centralized corporate cloud monopolies. This repository serves as the official website codebase, hosting the digital sovereignty manifesto, technical specifications, and developer documentation.
+**Mutualism Accord** — An open-source protocol standard separating autonomous AI agents from centralized corporate cloud monopolies.  
+Copyright (C) 2026 Terri Clark / TREE(3) Vocations, LLC  
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.  
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.  
+
+You should have received a copy of the GNU Affero General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 ---
 
