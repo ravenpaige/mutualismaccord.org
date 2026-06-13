@@ -3,13 +3,17 @@ locale = "en-us"
 title = "Mutualism Accord"
 theme = "PaperMod"
 
+[params]
+  # Enables a clean, professional profile landing page layout
+  homeInfoParams = { title = "The Mutualism Accord", content = "A universal, open-source protocol and policy framework to dismantle the digital oligarchy through local-first autonomy and absolute agent loyalty." }
+
 [menu]
   [[menu.main]]
-    name = "Manifesto"
+    name = "Read Manifesto"
     url = "/posts/manifesto/"
     weight = 10
 
   [[menu.main]]
-    name = "Technical Spec"
+    name = "Technical Specification"
     url = "/posts/spec/"
     weight = 20
