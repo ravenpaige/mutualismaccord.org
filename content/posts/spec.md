@@ -6,6 +6,11 @@ description: "Implementation specifications, system prompts, and architectural c
 tags: ["Technical Spec", "Prompt Engineering", "Open Protocols", "MCP"]
 ---
 
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+Copyright (C) 2026 Terri Clark / TREE(3) Vocations, LLC
+-->
+
 ### 1. Introduction & Core Objective
 
 The **Mutualism Accord Specification (v1.0.0)** establishes a standard runtime environment and prompt engineering blueprint for autonomous digital entities. The goal is to programmatically isolate Large Language Model (LLM) runtimes from centralized platform dependencies, ensuring **local-first processing**, **absolute user fidelity**, and **vendor-neutral communication**.
