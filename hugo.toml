@@ -3,9 +3,11 @@ locale = "en-us"
 title = "Mutualism Accord"
 theme = "PaperMod"
 
+# This forces Hugo to completely ignore the broken RSS file
+disableKinds = ["RSS"]
+
 [params]
-  # Enables a clean, professional profile landing page layout
-  homeInfoParams = { title = "The Mutualism Accord", content = "A universal, open-source protocol and policy framework to dismantle the digital oligarchy through local-first autonomy and absolute agent loyalty." }
+  homeInfoParams = { title = "The Mutualism Accord", content = "A universal, open-source protocol framework to dismantle the digital oligarchy." }
 
 [menu]
   [[menu.main]]
