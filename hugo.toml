@@ -5,11 +5,12 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
-    name = 'Manifesto'
-    url = '/posts/manifesto/'
+    name = "Manifesto"
+    url = "posts/manifesto.md"
     weight = 10
 
   [[menu.main]]
-    name = 'Technical Spec'
-    url = '/posts/spec/'
+    name = "Technical Spec"
+    url = "posts/spec.md"
     weight = 20
+
